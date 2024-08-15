@@ -34,7 +34,7 @@ auth_check();
 <body>
 
 <div id="header" class="bar">
-  <a href="index.php"><img id="logo" src="images/title.gif" alt="dompdf"/></a>
+  <a href="index.html"><img id="logo" src="images/title.gif" alt="dompdf"/></a>
   <a href="http://www.dompdf.com/" target="_blank">www.dompdf.com</a>
   &mdash; 
   Send bug reports to <a href="http://code.google.com/p/dompdf/issues/list">the bug tracker</a> 
@@ -43,7 +43,7 @@ auth_check();
 
 <div id="left_col">
   <ul>
-    <li style="list-style-image: url('images/star_02.gif');"><a href="index.php">Overview</a></li>
+    <li style="list-style-image: url('images/star_02.gif');"><a href="index.html">Overview</a></li>
     <li style="list-style-image: url('images/star_02.gif');"><a href="examples.php">Examples</a></li>
     <li style="list-style-image: url('images/star_02.gif');"><a href="demo.php">Demo</a></li>
     <li style="list-style-image: url('images/star_02.gif');"><a href="setup.php">Setup / Config</a></li>

@@ -25,7 +25,7 @@
   include '../koneksi.php';
   session_start();
   if($_SESSION['status'] != "manajemen_logedin"){
-    header("location:../index.php?alert=belum_login");
+    header("location:../index.html?alert=belum_login");
   }
   ?>
 
@@ -43,7 +43,7 @@
   <div class="wrapper">
 
     <header class="main-header">
-      <a href="index.php" class="logo">
+      <a href="index.html" class="logo">
         <span class="logo-mini"><b><i class="fa fa-money"></i></b> </span>
         <span class="logo-lg"><b>MENU</b></span>
       </a>
@@ -102,7 +102,7 @@
           <li class="header">MAIN NAVIGATION</li>
 
           <li>
-            <a href="index.php">
+            <a href="index.html">
               <i class="fa fa-dashboard"></i> <span>DASHBOARD</span>
             </a>
           </li>
